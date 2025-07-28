@@ -1,3 +1,3 @@
 # C++ projects
 
-## Luhn algorythm
+### Luhn algorythm
