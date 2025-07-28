@@ -1,1 +1,1 @@
-# c++ projects
+# C++ projects
