@@ -8,5 +8,13 @@
 - If the total sum is divisible by 10, the credit card number is valid.
 
 ### Encryption / Decryption tool
+-> Input: password (string, 8 to 16 chars)
+-> Encryption Methods: XOR based/ string Mixer / compley multi layered encryption
+
 XOR based encryption:
-- tdadada
+- Uses a fixed 16-character key (ENCRYPTION_KEY) for encryption and decryption.
+- Loops over all password characters to perform XOR between the input and the ENCRYPTION_KEY
+
+String Mixer
+- Uses a mapping table between ASCII characters 32–127, where the left side is in standard chronological order, and the right side is a user-defined order specified in a .txt file located in the root directory.
+- Creates a second reverse mapping table by swapping keys and values of the first map, enabling decryption by converting the encrypted characters back to the original ones.
