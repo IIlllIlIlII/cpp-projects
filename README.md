@@ -8,4 +8,5 @@
 - If the total sum is divisible by 10, the credit card number is valid.
 
 ### Encryption / Decryption tool
-#### test
+XOR based encryption:
+- tdadada
