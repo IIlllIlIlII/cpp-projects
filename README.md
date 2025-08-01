@@ -16,5 +16,6 @@ XOR based encryption:
 - Loops over all password characters to perform XOR between the input and the ENCRYPTION_KEY
 
 String Mixer
-- Uses a mapping table between ASCII characters 32–127, where the left side is in standard chronological order, and the right side is a user-defined order specified in a .txt file located in the root directory.
-- Creates a second reverse mapping table by swapping keys and values of the first map, enabling decryption by converting the encrypted characters back to the original ones.
+- Uses a mapping table between ASCII characters 32–127, where the left side is in standard chronological order
+- The right side is a user-defined order specified in a .txt file located in the root directory
+- Creates a second reverse mapping table by swapping keys and values of the first map, enabling decryption by converting the encrypted characters back to the original ones
