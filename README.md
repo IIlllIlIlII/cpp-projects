@@ -8,7 +8,7 @@
 - If the total sum is divisible by 10, the credit card number is valid.
 
 ### Encryption / Decryption tool
--> Input: password (string, 8 to 16 chars)
+-> Input: password (string, 8 to 16 chars) \n
 -> Encryption Methods: XOR based/ string Mixer / compley multi layered encryption
 
 XOR based encryption:
