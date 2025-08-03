@@ -11,24 +11,16 @@ constexpr int PASSWORD_MAX = 16;
 
 
 
-
 int main(int argc, const char * argv[]) {
-    
-    std::cout << "Hello, World!\n";
-    
-    
-    std::bitset<4> bitset1 = (0001);
-    bitset1 <<= 1;
-    std::cout << bitset1 << std::endl;
-    
     std::string password;
     
     std::cout << "Enter a password for encryption: ";
-    std::cin >> password;
+    std::getline(std::cin, password);
     
     while (!(validateInput(password))) {
         std::cout << "Wrong size, enter a password for encryption: ";
-        std::cin >> password;
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::getline(std::cin, password);
     }
     
     int option;
@@ -54,13 +46,15 @@ int main(int argc, const char * argv[]) {
             std::cout << "Decrypted password: " << password << std::endl;
             break;
         case 3:
+            password = multiLayeredEncryption(password);
+            std::cout << "Encrypted password: " << password << "\n";
+            password = multiLayeredDecryption(password);
+            std::cout << "Decrypted password: " << password << std::endl;
             break;
             
         default:
             break;
     }
-    
-    
     
     return 0;
 }
@@ -73,7 +67,7 @@ bool validateInput(std::string password) {
         
         //check if all chars are ASCII values >= 32
         for(int i = 0; i < length; i++) {
-                    if (!((int)password.at(i) >= 32) || (char)password.at(i) == '#') {
+                    if (!((int)password.at(i) >= 32) || (char)password.at(i) == '#') { //# is forbidden
                         return false; //invalid char
                     }
             

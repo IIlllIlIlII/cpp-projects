@@ -6,7 +6,7 @@ std::string xorEncryption(std::string password);
 std::string xorDecryption(std::string password);
 
 //global
-const std::string ENCRYPTION_KEY = "x8Rp2fLzPqW9mB1n";
+constexpr std::string ENCRYPTION_KEY = "x8Rp2fLzPqW9mB1n";
 
 
 
@@ -16,7 +16,6 @@ std::string xorEncryption(std::string password) {
     
 
     for (int i = 0; i < length; i++) {
-        //std::bitset<8> bitset = (unsigned char)password[i]; //cast to unsigned char for bitset
         password[i] = password[i] ^ ENCRYPTION_KEY[i];
         
     }
@@ -33,3 +32,4 @@ std::string xorDecryption(std::string password) {
     
     return  password;
 }
+

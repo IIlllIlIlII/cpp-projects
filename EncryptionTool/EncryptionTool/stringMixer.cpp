@@ -39,7 +39,7 @@ void getEncryptionTables() {
     map.clear();
     reversedMap.clear();
     
-    std::ifstream file("/Users/fabi/Documents/c++ projects/project1/project1/map.txt"); //path
+    std::ifstream file("map.txt"); //path
     
     if (file.fail()) { //error handling
         std::cerr << "File error";

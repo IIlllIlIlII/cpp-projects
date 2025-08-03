@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0523F2FA2E3955090059D984 /* CopyFiles */ = {
+		0523F3192E3F7C2B0059D984 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,19 +19,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0523F2FC2E3955090059D984 /* project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project1; sourceTree = BUILT_PRODUCTS_DIR; };
+		0523F31B2E3F7C2B0059D984 /* EncryptionTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EncryptionTool; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0523F2FE2E3955090059D984 /* project1 */ = {
+		0523F31D2E3F7C2B0059D984 /* EncryptionTool */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = project1;
+			path = EncryptionTool;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0523F2F92E3955090059D984 /* Frameworks */ = {
+		0523F3182E3F7C2B0059D984 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,18 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0523F2F32E3955090059D984 = {
+		0523F3122E3F7C2B0059D984 = {
 			isa = PBXGroup;
 			children = (
-				0523F2FE2E3955090059D984 /* project1 */,
-				0523F2FD2E3955090059D984 /* Products */,
+				0523F31D2E3F7C2B0059D984 /* EncryptionTool */,
+				0523F31C2E3F7C2B0059D984 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0523F2FD2E3955090059D984 /* Products */ = {
+		0523F31C2E3F7C2B0059D984 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0523F2FC2E3955090059D984 /* project1 */,
+				0523F31B2E3F7C2B0059D984 /* EncryptionTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,63 +60,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0523F2FB2E3955090059D984 /* project1 */ = {
+		0523F31A2E3F7C2B0059D984 /* EncryptionTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0523F3032E3955090059D984 /* Build configuration list for PBXNativeTarget "project1" */;
+			buildConfigurationList = 0523F3222E3F7C2B0059D984 /* Build configuration list for PBXNativeTarget "EncryptionTool" */;
 			buildPhases = (
-				0523F2F82E3955090059D984 /* Sources */,
-				0523F2F92E3955090059D984 /* Frameworks */,
-				0523F2FA2E3955090059D984 /* CopyFiles */,
+				0523F3172E3F7C2B0059D984 /* Sources */,
+				0523F3182E3F7C2B0059D984 /* Frameworks */,
+				0523F3192E3F7C2B0059D984 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0523F2FE2E3955090059D984 /* project1 */,
+				0523F31D2E3F7C2B0059D984 /* EncryptionTool */,
 			);
-			name = project1;
+			name = EncryptionTool;
 			packageProductDependencies = (
 			);
-			productName = project1;
-			productReference = 0523F2FC2E3955090059D984 /* project1 */;
+			productName = EncryptionTool;
+			productReference = 0523F31B2E3F7C2B0059D984 /* EncryptionTool */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0523F2F42E3955090059D984 /* Project object */ = {
+		0523F3132E3F7C2B0059D984 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					0523F2FB2E3955090059D984 = {
+					0523F31A2E3F7C2B0059D984 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = 0523F2F72E3955090059D984 /* Build configuration list for PBXProject "project1" */;
+			buildConfigurationList = 0523F3162E3F7C2B0059D984 /* Build configuration list for PBXProject "EncryptionTool" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 0523F2F32E3955090059D984;
+			mainGroup = 0523F3122E3F7C2B0059D984;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 0523F2FD2E3955090059D984 /* Products */;
+			productRefGroup = 0523F31C2E3F7C2B0059D984 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0523F2FB2E3955090059D984 /* project1 */,
+				0523F31A2E3F7C2B0059D984 /* EncryptionTool */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0523F2F82E3955090059D984 /* Sources */ = {
+		0523F3172E3F7C2B0059D984 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,7 +126,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0523F3012E3955090059D984 /* Debug */ = {
+		0523F3202E3F7C2B0059D984 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		0523F3022E3955090059D984 /* Release */ = {
+		0523F3212E3F7C2B0059D984 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +243,7 @@
 			};
 			name = Release;
 		};
-		0523F3042E3955090059D984 /* Debug */ = {
+		0523F3232E3F7C2B0059D984 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -253,7 +253,7 @@
 			};
 			name = Debug;
 		};
-		0523F3052E3955090059D984 /* Release */ = {
+		0523F3242E3F7C2B0059D984 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0523F2F72E3955090059D984 /* Build configuration list for PBXProject "project1" */ = {
+		0523F3162E3F7C2B0059D984 /* Build configuration list for PBXProject "EncryptionTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0523F3012E3955090059D984 /* Debug */,
-				0523F3022E3955090059D984 /* Release */,
+				0523F3202E3F7C2B0059D984 /* Debug */,
+				0523F3212E3F7C2B0059D984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0523F3032E3955090059D984 /* Build configuration list for PBXNativeTarget "project1" */ = {
+		0523F3222E3F7C2B0059D984 /* Build configuration list for PBXNativeTarget "EncryptionTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0523F3042E3955090059D984 /* Debug */,
-				0523F3052E3955090059D984 /* Release */,
+				0523F3232E3F7C2B0059D984 /* Debug */,
+				0523F3242E3F7C2B0059D984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0523F2F42E3955090059D984 /* Project object */;
+	rootObject = 0523F3132E3F7C2B0059D984 /* Project object */;
 }

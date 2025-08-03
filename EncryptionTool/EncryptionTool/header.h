@@ -1,9 +1,3 @@
-//
-//  header.h
-//  project1
-//
-//  Created by Fabi on 29.07.25.
-//
 #pragma once
 #include <iostream>
 
@@ -16,3 +10,7 @@ std::string xorDecryption(std::string password);
 //stringMixer
 std::string stringMixerEncrypt(std::string password);
 std::string stringMixerDecrypt(std::string password);
+
+//multiLayered
+std::string multiLayeredEncryption(std::string password);
+std::string multiLayeredDecryption(std::string password);
